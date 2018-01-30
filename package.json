@@ -1,0 +1,8 @@
+{
+  "name": "ghibli-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:codingstones/ghibli-kata.git",
+  "author": "Javi Rubio <javi@codingstones.com>",
+  "license": "MIT"
+}
