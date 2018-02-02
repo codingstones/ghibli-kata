@@ -6,7 +6,8 @@
   "author": "Javi Rubio <javi@codingstones.com>",
   "license": "MIT",
   "scripts": {
-    "unit": "mocha --compilers js:babel-core/register -r babel-polyfill ./setupTests.js './**/*.spec.js*'"
+    "unit": "mocha --compilers js:babel-core/register -r babel-polyfill ./setupTests.js './**/*.spec.js*'",
+    "acceptance": "mocha --compilers js:babel-core/register -r babel-polyfill ./setupTests.js './acceptance/*.acceptance.js*'"
   },
   "devDependencies": {
     "alert-node": "^0.2.1",
